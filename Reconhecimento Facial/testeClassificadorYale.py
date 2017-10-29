@@ -6,10 +6,10 @@ from PIL import Image
 detectorFace = cv2.CascadeClassifier("cascades\haarcascade_frontalface_default.xml")
 #reconhecedor = cv2.face.EigenFaceRecognizer_create()
 #reconhecedor.read("ArquivosTreinamentos\classificadorEigenYale.yml")
-#reconhecedor = cv2.face.FisherFaceRecognizer_create()
-#reconhecedor.read("ArquivosTreinamentos\classificadorFisherYale.yml")
-reconhecedor = cv2.face.LBPHFaceRecognizer_create()
-reconhecedor.read("ArquivosTreinamentos\classificadorLBPHYale.yml")
+reconhecedor = cv2.face.FisherFaceRecognizer_create()
+reconhecedor.read("ArquivosTreinamentos\classificadorFisherYale.yml")
+#reconhecedor = cv2.face.LBPHFaceRecognizer_create()
+#reconhecedor.read("ArquivosTreinamentos\classificadorLBPHYale.yml")
 
 totalAcertos = 0
 percentualAcerto = 0.0
