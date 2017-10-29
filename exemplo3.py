@@ -17,7 +17,7 @@ classifierFace = cv2.CascadeClassifier('cascades\\haarcascade_frontalface_defaul
 #classifier eye
 classifierEye =  cv2.CascadeClassifier('cascades\\haarcascade_eye.xml')
 #classifier eye with glasses
-classifierEyeGlass = cv2.CascadeClassifier('cascades\\haarcascade_eye_tree_eyeglasses.xml')7
+classifierEyeGlass = cv2.CascadeClassifier('cascades\\haarcascade_eye_tree_eyeglasses.xml')
 # classifier smile
 classifierSmile = cv2.CascadeClassifier('cascades\\haarcascade_smile.xml')
 
